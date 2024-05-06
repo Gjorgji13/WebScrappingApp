@@ -7,11 +7,14 @@
 преку командата 'pip install streamlit', која се наоѓа на: https://docs.streamlit.io/get-started/installation
 
 
-* Moже да се стартува и во ново направена вирт. околина, но се повторуваат овие постапки:  
 
-1. Во случај да покажи дека streamlit не е инсталиран, тогаш се инсталира повторно во истата вирт. околина
-преку командата 'pip install streamlit', која се наоѓа на: https://docs.streamlit.io/get-started/installation
+* Moже да се стартува и во ново направена вирт. околина, но се повторуваат овие постапки: 
+
+1. Виртуелната колониа се инсталира/креира во терминал во editor/IDE со команда python -m venv venv
 
 2. Виртуелната околина се стартува во терминал во editor/IDE со: venv/Scripts/activate
 
-3. Откако ќе се стартува околината се стартува апликацијата со: streamlit run WebAppScrapper.py
+3. Во случај да покажи дека streamlit не е инсталиран, тогаш се инсталира повторно во истата вирт. околина преку командата 'pip install streamlit',
+која се наоѓа на: https://docs.streamlit.io/get-started/installation
+
+4. Откако ќе се стартува околината се стартува апликацијата со: streamlit run WebAppScrapper.py
